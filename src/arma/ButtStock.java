@@ -44,7 +44,9 @@ public class ButtStock extends Item {
     
     @Override
     public String toString(){
-        
+        StringBuilder tstring = new StringBuilder();
+        tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" recoil modfier: ").append(this.modRecoil).append(" weight: ").append(this.weight);
+        return tstring.toString();
     }
     
     

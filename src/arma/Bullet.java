@@ -54,7 +54,9 @@ public class Bullet extends Item{
     
     @Override
     public String toString(){
-        return "name: " + this.name + "\nID: "+ this.getId() + "\nmod sound: " + this.modSound + "\nmod damage: " + this.modDamage + "\nweight: " + this.weight; 
+        StringBuilder tstring = new StringBuilder();
+        tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" sound modifier: ").append(this.modSound).append(" damage modifier: ").append(this.modDamage).append(" weight: ").append(this.weight);
+        return tstring.toString();
     }
     
     

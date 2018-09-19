@@ -54,8 +54,9 @@ public class Magazine extends Item{
     @Override
     public String toString(){
         String ammot = (this.ammo == null)?"null":this.ammo.getName();
-        
-        return "name: " + this.name + "\nID: "+ this.getId() + "\ncapacity: " + this.capacity + "\nBullet: " + ammot; 
+        StringBuilder tstring = new StringBuilder();
+        tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" capacity: ").append(this.capacity).append(" bullet: ").append(ammot);
+        return tstring.toString();
     }
     
     

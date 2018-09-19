@@ -23,6 +23,12 @@ public class Item {
         return b;
     }
     
+    @Override
+    public String toString(){
+        StringBuilder tstring = new StringBuilder();
+        tstring.append("ID: ").append(this.id);
+        return tstring.toString();
+    }
     
 }
 

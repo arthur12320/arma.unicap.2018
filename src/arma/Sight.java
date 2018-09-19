@@ -42,4 +42,11 @@ public class Sight extends Item{
     }
     
     
+    @Override
+    public String toString(){
+      StringBuilder tstring = new StringBuilder();
+      tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" precision modifier: ").append(this.modPrecission).append(" weight: ").append(this.weight);
+      return tstring.toString();
+    }
+    
 }
