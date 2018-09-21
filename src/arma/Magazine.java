@@ -39,6 +39,10 @@ public class Magazine extends Item{
     public void addCompatibility(Item i){
         this.compatibility.add(i);
     }
+
+    public Bullet getAmmo() {
+        return ammo;
+    }
     
     public void load(Bullet b){
         if(b.compatible(this.compatibility)){ 
