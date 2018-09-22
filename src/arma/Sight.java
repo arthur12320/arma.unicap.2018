@@ -5,11 +5,11 @@ package arma;
  *
  * @author arthur
  */
-public class Sight extends Item{
+public class Sight extends Item {
     private String name;
     private int modPrecission;
     private float weight;
-
+    
     public Sight(String name, int modPrecission, float weight, int id) {
         super(id);
         this.name = name;
@@ -40,8 +40,7 @@ public class Sight extends Item{
     public void setWeight(float weight) {
         this.weight = weight;
     }
-    
-    
+        
     @Override
     public String toString(){
       StringBuilder tstring = new StringBuilder();

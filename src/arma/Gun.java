@@ -26,6 +26,35 @@ public class Gun extends Item {
     public Gun(String name, int precision, int recoil, int sound, int range, int damage, int capacity, float weight, Sight sight, Magazine magazine, ButtStock buttstock, Barrel barrel, int id) {
         super(id);
         this.name = name;
+        
+        if(sight == null){
+            
+            System.out.println("O campo sight não foi inicializado");
+        }else{
+            
+            this.sight = sight;
+        }
+        if(barrel == null){
+            
+            System.out.println("O campo barrel não foi inicializado");
+        }else{
+            
+            this.barrel = barrel;
+        }
+        if(magazine == null){
+            
+            System.out.println("O campo magazine não foi inicializado");
+        }else{
+            
+            this.magazine = magazine;
+        }
+        if(buttstock == null){
+            
+            System.out.println("O campo buttstock não foi inicializado");
+        }else{
+            
+            this.buttstock = buttstock;
+        }
         this.defaultPrecision = precision;
         this.defaultRecoil = recoil;
         this.defaultSound = sound;
@@ -33,10 +62,6 @@ public class Gun extends Item {
         this.damage = magazine.getAmmo().getModDamage();
         this.capacity = magazine.getCapacity();
         this.defaultWeight = weight;
-        this.sight = sight;
-        this.magazine = magazine;
-        this.buttstock = buttstock;
-        this.barrel = barrel;
     }
 
     public Gun(int id, String name) {
@@ -166,8 +191,8 @@ public class Gun extends Item {
         
         System.out.println("Precision: " + this.precision + "\nRecoil: " + this.recoil + "\nSound " + this.sound + "\nRange " + this.range + "\nDamage " + this.damage + "\nCapacity: " + this.capacity + "\nWeight " + this.weight);
     }
-
-    @Override
+    
+   @Override
     public String toString() {
 
         StringBuilder sb = new StringBuilder();
