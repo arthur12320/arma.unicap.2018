@@ -10,8 +10,6 @@ public class Bullet extends Item{
     private int modDamage;
     private int modSound;
     private float weight;
-    private String camo;
-
 
     public Bullet(String name, int modDamage, int modSound, float weight, int id) {
         super(id);
@@ -57,7 +55,7 @@ public class Bullet extends Item{
     @Override
     public String toString(){
         StringBuilder tstring = new StringBuilder();
-        tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" sound modifier: ").append(this.modSound).append(" damage modifier: ").append(this.modDamage).append(" weight: ").append(this.weight);
+        tstring.append("Name: ").append(this.name).append(" ID: ").append(this.getId()).append(" Sound modifier: ").append(this.modSound).append(" Damage modifier: ").append(this.modDamage).append(" Weight: ").append(this.weight);
         return tstring.toString();
     }
     

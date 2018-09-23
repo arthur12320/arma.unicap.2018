@@ -5,13 +5,12 @@ package arma;
  *
  * @author arthur
  */
-public class Barrel extends Item{
+public class Barrel extends Item implements Camouflage{
     private String name;
     private int modSound;
     private int modRange;
     private float weight;
-    private String camo;
-
+    private String camouflage;
 
     public Barrel(String name, int modSound, int modRange, float weight, int id) {
         super(id);
@@ -53,17 +52,33 @@ public class Barrel extends Item{
         this.weight = weight;
     }
     
+    public void putStyle(String type){
+        
+        this.camouflage = type;
+    }
     
+    public void removeStyle(){
+        
+        if(this.camouflage != null){
+            
+            this.camouflage = null;
+        
+        }else{
+            
+            System.out.println("This barrel has no camouflage.");
+        }
+    }
     
-    
+   public String getStyle(){
+       
+        return this.camouflage;
+    }
     
     @Override
     public String toString(){
         StringBuilder tstring = new StringBuilder();
-        tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" sound modifier: ").append(this.modSound).append(" range modifier: ").append(this.modRange).append(" weight: ").append(this.weight);
+        tstring.append("Name: ").append(this.name).append(" ID: ").append(this.getId()).append(" Sound modifier: ").append(this.modSound).append(" Range modifier: ").append(this.modRange).append(" Weight: ").append(this.weight).append(" Camouflage: ").append(this.camouflage);
         return tstring.toString();
                 
     }
-    
-    
 }

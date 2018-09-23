@@ -2,7 +2,7 @@ package arma;
 
 import java.util.ArrayList;
 
-public class Gun extends Item {
+public class Gun extends Item implements Camouflage{
 
     private String name;
     private int defaultPrecision;
@@ -22,9 +22,8 @@ public class Gun extends Item {
     private ButtStock buttstock;
     private Barrel barrel;
     private ArrayList<Item> compatibility;
-    private String camo;
-
-
+    private String camouflage;
+    
     public Gun(String name, int precision, int recoil, int sound, int range, int damage, int capacity, float weight, Sight sight, Magazine magazine, ButtStock buttstock, Barrel barrel, int id) {
         super(id);
         this.name = name;
@@ -191,8 +190,30 @@ public class Gun extends Item {
             recoil = recoil + this.buttstock.getModRecoi();
         }
         
-        System.out.println("Precision: " + this.precision + "\nRecoil: " + this.recoil + "\nSound " + this.sound + "\nRange " + this.range + "\nDamage " + this.damage + "\nCapacity: " + this.capacity + "\nWeight " + this.weight);
+        System.out.println("Precision: " + this.precision + " Recoil: " + this.recoil + " Sound " + this.sound + " Range " + this.range + " Damage " + this.damage + " Capacity: " + this.capacity + " Weight " + this.weight);
     }
+    
+     public void putStyle(String type){
+        
+        this.camouflage = type;
+    }
+    
+    public void removeStyle(){
+        
+        if(this.camouflage != null){
+            
+            this.camouflage = null;
+        
+        }else{
+            
+            System.out.println("This gun has no camouflage.");
+        }
+    }
+    
+    public String getStyle(){
+       
+        return this.camouflage;
+    } 
     
    @Override
     public String toString() {
@@ -201,23 +222,24 @@ public class Gun extends Item {
 
         sb.append("ID: ")
                 .append(this.getId())
-                .append("\nNome: ")
+                .append(" Name: ")
                 .append(this.name)
-                .append("\nPrecision: ")
+                .append(" Precision: ")
                 .append(this.precision)
-                .append("\nRecoil: ")
+                .append(" Recoil: ")
                 .append(this.recoil)
-                .append("\nSound: ")
+                .append(" Sound: ")
                 .append(this.sound)
-                .append("\nRange: ")
+                .append(" Range: ")
                 .append(this.range)
-                .append("\nDamage: ")
+                .append(" Damage: ")
                 .append(this.damage)
-                .append("\nCapacity: ")
+                .append(" Capacity: ")
                 .append(this.capacity)
-                .append("Weight: ")
-                .append(this.weight);
-
+                .append(" Weight: ")
+                .append(this.weight)
+                .append(" Camouflage: ")
+                .append(this.camouflage);
         return sb.toString();
     }
 }

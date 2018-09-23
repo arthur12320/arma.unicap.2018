@@ -6,12 +6,12 @@ package arma;
  *
  * @author arthur
  */
-public class Sight extends Item implements Camo {
+public class Sight extends Item implements Camouflage {
     
     private String name;
     private int modPrecission;
     private float weight;
-    private String camo;
+    private String camouflage;
     
     public Sight(String name, int modPrecission, float weight, int id) {
         super(id);
@@ -46,33 +46,30 @@ public class Sight extends Item implements Camo {
     
     public void putStyle(String type){
         
-        this.camo = type;
-        
+        this.camouflage = type;
     }
     
     public void removeStyle(){
         
-        if(this.camo != null){
+        if(this.camouflage != null){
             
-            this.camo = null;
+            this.camouflage = null;
         
         }else{
             
-            System.out.println("this sight has no camouflage ");
+            System.out.println("This sight has no camouflage.");
         }
     }
     
     public String getStyle(){
        
-        return this.camo;
+        return this.camouflage;
     }   
-   
-    
+       
     @Override
     public String toString(){
       StringBuilder tstring = new StringBuilder();
-      tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" precision modifier: ").append(this.modPrecission).append(" weight: ").append(this.weight);
+      tstring.append("Name: ").append(this.name).append(" ID: ").append(this.getId()).append(" Precision modifier: ").append(this.modPrecission).append(" Weight: ").append(this.weight).append(" Camouflage: ").append(this.camouflage);
       return tstring.toString();
     }
-    
 }

@@ -1,6 +1,6 @@
 package arma;
 
-public interface Camo {
+public interface Camouflage {
 
    public void putStyle(String type);
     

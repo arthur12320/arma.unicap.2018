@@ -7,12 +7,12 @@ import java.util.ArrayList;
  *
  * @author arthur
  */
-public class Magazine extends Item{
+public class Magazine extends Item implements Camouflage{
     private String name;
     private int capacity;
     private ArrayList<Item> compatibility;
     private Bullet ammo;
-    private String camo;
+    private String camouflage;
 
     public Magazine(String name, int capacity,int id) {
         super(id);
@@ -55,17 +55,34 @@ public class Magazine extends Item{
     public void unload(){
        this.ammo = null;
     }
-
     
+    public void putStyle(String type){
+        
+        this.camouflage = type;
+    }
     
+    public void removeStyle(){
+        
+        if(this.camouflage != null){
+            
+            this.camouflage = null;
+        
+        }else{
+            
+            System.out.println("This magazine has no camouflage.");
+        }
+    }
+    
+    public String getStyle(){
+       
+        return this.camouflage;
+    }
     
     @Override
     public String toString(){
         String ammot = (this.ammo == null)?"null":this.ammo.getName();
         StringBuilder tstring = new StringBuilder();
-        tstring.append("name: ").append(this.name).append(" ID: ").append(this.getId()).append(" capacity: ").append(this.capacity).append(" bullet: ").append(ammot);
+        tstring.append("Name: ").append(this.name).append(" ID: ").append(this.getId()).append(" Capacity: ").append(this.capacity).append(" Bullet: ").append(ammot).append(" Camouflage: ").append(this.camouflage);
         return tstring.toString();
     }
-    
-    
 }
