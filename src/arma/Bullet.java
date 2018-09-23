@@ -10,6 +10,8 @@ public class Bullet extends Item{
     private int modDamage;
     private int modSound;
     private float weight;
+    private String camo;
+
 
     public Bullet(String name, int modDamage, int modSound, float weight, int id) {
         super(id);

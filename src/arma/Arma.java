@@ -11,6 +11,8 @@ public class Arma {
     public static void main(String[] args) {
        createBullet();
        createMagazine();
+       
+       
     }
     
     public static Barrel createBarrel(){  //testing 
@@ -71,7 +73,6 @@ public class Arma {
         
         return m;
     } //testing
-    
     
     
 }

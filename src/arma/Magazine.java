@@ -12,6 +12,7 @@ public class Magazine extends Item{
     private int capacity;
     private ArrayList<Item> compatibility;
     private Bullet ammo;
+    private String camo;
 
     public Magazine(String name, int capacity,int id) {
         super(id);
@@ -54,6 +55,9 @@ public class Magazine extends Item{
     public void unload(){
        this.ammo = null;
     }
+
+    
+    
     
     @Override
     public String toString(){

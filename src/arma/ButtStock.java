@@ -10,6 +10,7 @@ public class ButtStock extends Item {
     private int modRecoil;
     private String name;
     private float weight;
+    private String camo;
 
     public ButtStock(int modRecoil, String name, float weight, int id) {
         super(id);

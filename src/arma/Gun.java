@@ -22,6 +22,8 @@ public class Gun extends Item {
     private ButtStock buttstock;
     private Barrel barrel;
     private ArrayList<Item> compatibility;
+    private String camo;
+
 
     public Gun(String name, int precision, int recoil, int sound, int range, int damage, int capacity, float weight, Sight sight, Magazine magazine, ButtStock buttstock, Barrel barrel, int id) {
         super(id);

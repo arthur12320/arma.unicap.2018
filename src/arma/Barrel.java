@@ -10,6 +10,8 @@ public class Barrel extends Item{
     private int modSound;
     private int modRange;
     private float weight;
+    private String camo;
+
 
     public Barrel(String name, int modSound, int modRange, float weight, int id) {
         super(id);
@@ -50,6 +52,10 @@ public class Barrel extends Item{
     public void setWeight(float weight) {
         this.weight = weight;
     }
+    
+    
+    
+    
     
     @Override
     public String toString(){
