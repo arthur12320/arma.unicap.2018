@@ -1,5 +1,6 @@
 package Controller;
 
+import Dao.DaoBridge;
 import Dao.MagazineDao;
 import arma.Bullet;
 import arma.Magazine;
@@ -12,7 +13,7 @@ import javax.enterprise.context.ApplicationScoped;
  */
 @ApplicationScoped
 public class MagazineController {
-    private MagazineDao dao = MagazineDao.getInstance();
+    private DaoBridge<Magazine> dao = MagazineDao.getInstance();
 
     public Magazine createMagazine(Magazine s){
         if(dao.idExists(s.getId()) == false){

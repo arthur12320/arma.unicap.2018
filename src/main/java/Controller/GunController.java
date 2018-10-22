@@ -5,6 +5,7 @@
  */
 package Controller;
 
+import Dao.DaoBridge;
 import Dao.GunDao;
 import arma.Barrel;
 import arma.ButtStock;
@@ -19,7 +20,7 @@ import java.util.ArrayList;
  */
 public class GunController {
 
-    private GunDao dao = GunDao.getInstance();
+    private DaoBridge<Gun> dao = GunDao.getInstance();
     private BarrelController barrels;
     private ButtStockController bt;
     private MagazineController magazines;

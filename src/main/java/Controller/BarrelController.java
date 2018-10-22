@@ -6,6 +6,7 @@
 package Controller;
 
 import Dao.BarrelDao;
+import Dao.DaoBridge;
 import arma.Barrel;
 import java.util.ArrayList;
 
@@ -15,7 +16,7 @@ import java.util.ArrayList;
  * @author zearthur99
  */
 public class BarrelController {
-    private BarrelDao dao = BarrelDao.getInstance();
+    private DaoBridge<Barrel> dao = BarrelDao.getInstance();
 
     public BarrelController() {
     }

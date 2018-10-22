@@ -6,6 +6,7 @@
 package Controller;
 
 import Dao.ButtStockDao;
+import Dao.DaoBridge;
 import arma.ButtStock;
 import java.util.ArrayList;
 
@@ -15,7 +16,7 @@ import java.util.ArrayList;
  * @author zearthur99
  */
 public class ButtStockController {
-    private final ButtStockDao dao = ButtStockDao.getInstance();
+    private final DaoBridge<ButtStock> dao = ButtStockDao.getInstance();
 
     public ButtStockController() {
     }

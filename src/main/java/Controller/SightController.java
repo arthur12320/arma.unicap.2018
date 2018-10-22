@@ -1,4 +1,5 @@
 package Controller;
+import Dao.DaoBridge;
 import Dao.SightDao;
 import arma.Sight;
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ import javax.enterprise.context.ApplicationScoped;
  */
 @ApplicationScoped
 public class SightController {
-    private SightDao dao = SightDao.getInstance();
+    private DaoBridge<Sight> dao = SightDao.getInstance();
 
     public SightController() {
     }
