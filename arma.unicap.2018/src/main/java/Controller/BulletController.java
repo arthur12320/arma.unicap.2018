@@ -2,7 +2,7 @@ package Controller;
 
 import Dao.DaoBridge;
 import arma.Bullet;
-import factory.BulletDaoFactory;
+import factory.AbstractFactory;
 import java.util.ArrayList;
 
 
@@ -12,7 +12,7 @@ import java.util.ArrayList;
  */
 
 public class BulletController {
-    private DaoBridge<Bullet> dao = (new BulletDaoFactory()).getDao(1);
+    private DaoBridge<Bullet> dao = AbstractFactory.getFactory("bullet").getDao();
     
     public Bullet createBullet(Bullet s){
         if(dao.idExists(s.getId()) == false){

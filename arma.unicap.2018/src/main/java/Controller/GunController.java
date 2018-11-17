@@ -11,6 +11,7 @@ import arma.ButtStock;
 import arma.Gun;
 import arma.Magazine;
 import arma.Sight;
+import factory.AbstractFactory;
 import factory.GunDaoFactory;
 import java.util.ArrayList;
 
@@ -20,7 +21,7 @@ import java.util.ArrayList;
  */
 public class GunController {
 
-    private DaoBridge<Gun> dao = (new GunDaoFactory()).getDao(1);
+    private DaoBridge<Gun> dao = AbstractFactory.getFactory("gun").getDao();
     private BarrelController barrels;
     private ButtStockController bt;
     private MagazineController magazines;

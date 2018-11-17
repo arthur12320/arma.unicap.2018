@@ -19,7 +19,7 @@ public class BarrelDao implements DaoBridge<Barrel>{
     private final ArrayList<Barrel> db;
 
     private static BarrelDao instance;
-
+    
     public static BarrelDao getInstance(){
         if(instance == null){
             instance = new BarrelDao();

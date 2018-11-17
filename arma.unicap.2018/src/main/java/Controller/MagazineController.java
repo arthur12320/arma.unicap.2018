@@ -3,6 +3,7 @@ package Controller;
 import Dao.DaoBridge;
 import arma.Bullet;
 import arma.Magazine;
+import factory.AbstractFactory;
 import factory.MagazineDaoFactory;
 import java.util.ArrayList;
 import javax.enterprise.context.ApplicationScoped;
@@ -13,7 +14,7 @@ import javax.enterprise.context.ApplicationScoped;
  */
 @ApplicationScoped
 public class MagazineController {
-    private DaoBridge<Magazine> dao = (new MagazineDaoFactory()).getDao(1);
+    private DaoBridge<Magazine> dao = AbstractFactory.getFactory("magazine").getDao();
 
     public Magazine createMagazine(Magazine s){
         if(dao.idExists(s.getId()) == false){

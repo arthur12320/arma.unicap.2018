@@ -7,7 +7,7 @@ package Controller;
 
 import Dao.DaoBridge;
 import arma.ButtStock;
-import factory.ButtStockDaoFactory;
+import factory.AbstractFactory;
 import java.util.ArrayList;
 
 
@@ -17,7 +17,7 @@ import java.util.ArrayList;
  */
 public class ButtStockController {
     
-    private final DaoBridge<ButtStock> dao = (new ButtStockDaoFactory()).getDao(1);
+    private final DaoBridge<ButtStock> dao = AbstractFactory.getFactory("buttstock").getDao();
 
     public ButtStockController() {
     }

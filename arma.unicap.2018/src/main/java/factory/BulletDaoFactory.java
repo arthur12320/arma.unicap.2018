@@ -7,21 +7,23 @@ package factory;
 
 import Dao.BulletDao;
 import Dao.DaoBridge;
+import memento.Memento;
 
 /**
  *
  * @author tulioaoki
  */
-public class BulletDaoFactory {
-    public DaoBridge getDao(int t) {
+public class BulletDaoFactory extends Factory {
+    int t = Memento.getState();
+
+    @Override
+    public DaoBridge getDao() {
         switch (t) {
-            case 1:
+            default:
                 return BulletDao.getInstance();
             case 2:
                 return null;
             case 3:
-                return null;
-            default:
                 return null;
         }
     }

@@ -1,10 +1,10 @@
 package Controller;
+
 import Dao.DaoBridge;
 import arma.Sight;
-import factory.SightDaoFactory;
+import factory.AbstractFactory;
 import java.util.ArrayList;
 import javax.enterprise.context.ApplicationScoped;
-
 
 /**
  *
@@ -12,45 +12,46 @@ import javax.enterprise.context.ApplicationScoped;
  */
 @ApplicationScoped
 public class SightController {
-    private DaoBridge<Sight> dao = (new SightDaoFactory()).getDao(1);
+
+    private DaoBridge<Sight> dao = AbstractFactory.getFactory("sight").getDao();
 
     public SightController() {
     }
-    
-    public Sight createSight(Sight s){
-        if(dao.idExists(s.getId()) == false){
+
+    public Sight createSight(Sight s) {
+        if (dao.idExists(s.getId()) == false) {
             dao.insertItem(s);
-        return s;
+            return s;
         }
         return null;
     }
-    
-    public Sight updateSight(Sight s){
+
+    public Sight updateSight(Sight s) {
         dao.replaceItem(s, s.getId());
         return s;
     }
-    
-    public ArrayList<Sight> getSights(){
+
+    public ArrayList<Sight> getSights() {
         return dao.getList();
     }
-    
-    public void removeSight(String id){
+
+    public void removeSight(String id) {
         int i;
-        try{
+        try {
             i = Integer.parseInt(id);
             dao.remove(i);
-        }catch(NumberFormatException e){
-        } 
+        } catch (NumberFormatException e) {
+        }
     }
 
     public Sight getById(String id) {
         int i;
-        try{
+        try {
             i = Integer.parseInt(id);
             return dao.getById(i);
-        }catch(NumberFormatException e){
+        } catch (NumberFormatException e) {
             return null;
         }
-        
+
     }
 }
