@@ -15,7 +15,7 @@ import memento.Memento;
 public class Arma {
     
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
        Memento.load();
        Memento.save();
        
@@ -37,7 +37,9 @@ public class Arma {
                .build();
        
        g = new ArmaBuilder(g).setBarrel(b).setButtstock(bs).setMagazine(m).setSight(s).build();
-        System.out.println("\n\n\n"+g+"\n\n\n");
+       Gun nova =(Gun) g.clone();
+               
+        System.out.println(g+"\n\n\n"+nova+"\n\n\n");
        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"+Memento.getState());
     }
     

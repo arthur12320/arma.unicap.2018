@@ -1,12 +1,16 @@
 package arma;
 
+import builders.GunBuilder;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import javax.enterprise.context.ApplicationScoped;
+import java.lang.Cloneable;
+import prototype.Prototype;
 
 @ApplicationScoped
-public class Gun extends Item{
+public class Gun extends Item {
+
     private String name;
     private int defaultPrecision;
     private int defaultRecoil;
@@ -25,7 +29,7 @@ public class Gun extends Item{
     private ButtStock buttstock;
     private Barrel barrel;
     private ArrayList<Item> compatibility;
-    
+
     @JsonCreator
     public Gun(
             @JsonProperty("name") String name,
@@ -38,29 +42,32 @@ public class Gun extends Item{
             @JsonProperty("magazine") Magazine magazine,
             @JsonProperty("buttstock") ButtStock buttstock,
             @JsonProperty("sight") Sight sight,
-            @JsonProperty("id") int id)
-    {
+            @JsonProperty("id") int id) {
         super(id);
         this.name = name;
         this.compatibility = new ArrayList();
         this.sight = sight;
         this.barrel = barrel;
-        
-        if(magazine == null){
+
+        if (magazine == null) {
             this.damage = 0;
             this.capacity = 0;
-        }else{
+        } else {
             this.damage = magazine.getAmmo().getModDamage();
             this.capacity = magazine.getCapacity();
             this.magazine = magazine;
         }
-        
+
         this.buttstock = buttstock;
         this.defaultPrecision = this.precision = precision;
         this.defaultRecoil = this.recoil = recoil;
         this.defaultSound = this.sound = sound;
         this.defaultRange = this.range = range;
         this.defaultWeight = this.weight = weight;
+    }
+
+    public ArrayList getCompatibilityList() {
+        return this.compatibility;
     }
 
     public Gun(int id, String name) {
@@ -167,12 +174,12 @@ public class Gun extends Item{
         if (this.magazine != null) { // Arma também tem um maganize novo
             this.capacity = this.magazine.getCapacity();
             float ammoWeight = 0;
-            if(this.magazine.getAmmo() != null){
+            if (this.magazine.getAmmo() != null) {
                 ammoWeight = this.magazine.getAmmo().getWeight();
                 this.damage = this.magazine.getAmmo().getModDamage();
                 sound = sound + this.magazine.getAmmo().getModSound();
             }
-            weight = weight + (this.magazine.getCapacity() * ammoWeight);            
+            weight = weight + (this.magazine.getCapacity() * ammoWeight);
         }
         if (this.buttstock != null) { // Arma também tem tem um buttstock novo
             weight = weight + this.buttstock.getWeight();
@@ -204,10 +211,8 @@ public class Gun extends Item{
     public Barrel getBarrel() {
         return barrel;
     }
-    
-    
-    
-   @Override
+
+    @Override
     public String toString() {
 
         StringBuilder sb = new StringBuilder();
@@ -239,5 +244,10 @@ public class Gun extends Item{
                 .append("BARREL: ")
                 .append(this.barrel);
         return sb.toString();
+    }
+
+    @Override
+    public Prototype clone() throws CloneNotSupportedException {
+        return (Gun)super.clone();
     }
 }

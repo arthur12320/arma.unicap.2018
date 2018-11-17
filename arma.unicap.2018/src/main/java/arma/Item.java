@@ -2,9 +2,10 @@ package arma;
 
 import java.util.ArrayList;
 import javax.enterprise.context.ApplicationScoped;
+import prototype.Prototype;
 
 @ApplicationScoped
-public class Item {
+public class Item extends Prototype {
     private int id;
         
     public Item(){

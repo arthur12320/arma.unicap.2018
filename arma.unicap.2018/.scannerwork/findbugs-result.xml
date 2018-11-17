@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.6" sequence="0" timestamp="1542483254000" analysisTimestamp="1542483716314" release="">
+  <Project>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Endpoints/BulletEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Endpoints/BarrelEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Endpoints/ButtStockEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Endpoints/MagazineEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Endpoints/GunEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Endpoints/SightEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/BarrelBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/BulletBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/MagazineBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/Builder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/SightBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/GunBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/ArmaBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/builders/ButtStockBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/BulletDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/GunDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/SightDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/MagazineDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/DaoBridge.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/BarrelDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Dao/ButtStockDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/memento/Memento.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/prototype/Prototype.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Controller/SightController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Controller/ButtStockController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Controller/GunController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Controller/MagazineController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Controller/BulletController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/Controller/BarrelController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arquivos/GerenciadorArquivos.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Barrel.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Item.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Bullet.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Magazine.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Arma.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/ButtStock.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Sight.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/arma/Gun.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/BulletDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/MagazineDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/BarrelDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/ButtStockDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/AbstractFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/SightDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/GunDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/factory/Factory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/classes/rest/RESTApplication.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Endpoints/BulletEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Endpoints/BarrelEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Endpoints/ButtStockEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Endpoints/MagazineEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Endpoints/GunEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Endpoints/SightEndpoint.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/BarrelBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/BulletBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/MagazineBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/Builder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/SightBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/GunBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/ArmaBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/builders/ButtStockBuilder.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/BulletDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/GunDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/SightDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/MagazineDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/DaoBridge.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/BarrelDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Dao/ButtStockDao.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/memento/Memento.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Controller/SightController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Controller/ButtStockController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Controller/GunController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Controller/MagazineController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Controller/BulletController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/Controller/BarrelController.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arquivos/GerenciadorArquivos.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Barrel.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Item.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Bullet.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Magazine.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Arma.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/ButtStock.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Sight.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/arma/Gun.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/BulletDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/MagazineDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/BarrelDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/ButtStockDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/AbstractFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/SightDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/GunDaoFactory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/factory/Factory.class</Jar>
+    <Jar>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/target/poo-1.0/WEB-INF/classes/rest/RESTApplication.class</Jar>
+    <AuxClasspathEntry>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/.scannerwork/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/.scannerwork/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/tulioaoki/unicap/arma.unicap.2018/arma.unicap.2018/.scannerwork</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="1">
+    <MissingClass>javax.ws.rs.core.Application</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 17 Nov 2018 16:34:14 -0300" total_classes="47" referenced_classes="73" total_bugs="0" total_size="1466" num_packages="10" java_version="1.8.0_191" vm_version="25.191-b12" cpu_seconds="39.05" clock_seconds="10.62" peak_mbytes="359.47" alloc_mbytes="1365.50" gc_seconds="0.36">
+    <FileStats path="Controller/BarrelController.java" bugCount="0" size="27"/>
+    <FileStats path="Controller/BulletController.java" bugCount="0" size="26"/>
+    <FileStats path="Controller/ButtStockController.java" bugCount="0" size="28"/>
+    <FileStats path="Controller/GunController.java" bugCount="0" size="145"/>
+    <FileStats path="Controller/MagazineController.java" bugCount="0" size="55"/>
+    <FileStats path="Controller/SightController.java" bugCount="0" size="27"/>
+    <FileStats path="Dao/BarrelDao.java" bugCount="0" size="37"/>
+    <FileStats path="Dao/BulletDao.java" bugCount="0" size="37"/>
+    <FileStats path="Dao/ButtStockDao.java" bugCount="0" size="37"/>
+    <FileStats path="Dao/DaoBridge.java" bugCount="0" size="7"/>
+    <FileStats path="Dao/GunDao.java" bugCount="0" size="37"/>
+    <FileStats path="Dao/MagazineDao.java" bugCount="0" size="37"/>
+    <FileStats path="Dao/SightDao.java" bugCount="0" size="37"/>
+    <FileStats path="Endpoints/BarrelEndpoint.java" bugCount="0" size="17"/>
+    <FileStats path="Endpoints/BulletEndpoint.java" bugCount="0" size="19"/>
+    <FileStats path="Endpoints/ButtStockEndpoint.java" bugCount="0" size="16"/>
+    <FileStats path="Endpoints/GunEndpoint.java" bugCount="0" size="42"/>
+    <FileStats path="Endpoints/MagazineEndpoint.java" bugCount="0" size="23"/>
+    <FileStats path="Endpoints/SightEndpoint.java" bugCount="0" size="17"/>
+    <FileStats path="arma/Arma.java" bugCount="0" size="27"/>
+    <FileStats path="arma/Barrel.java" bugCount="0" size="49"/>
+    <FileStats path="arma/Bullet.java" bugCount="0" size="36"/>
+    <FileStats path="arma/ButtStock.java" bugCount="0" size="37"/>
+    <FileStats path="arma/Gun.java" bugCount="0" size="152"/>
+    <FileStats path="arma/Item.java" bugCount="0" size="28"/>
+    <FileStats path="arma/Magazine.java" bugCount="0" size="46"/>
+    <FileStats path="arma/Sight.java" bugCount="0" size="39"/>
+    <FileStats path="arquivos/GerenciadorArquivos.java" bugCount="0" size="60"/>
+    <FileStats path="builders/ArmaBuilder.java" bugCount="0" size="34"/>
+    <FileStats path="builders/BarrelBuilder.java" bugCount="0" size="27"/>
+    <FileStats path="builders/Builder.java" bugCount="0" size="4"/>
+    <FileStats path="builders/BulletBuilder.java" bugCount="0" size="27"/>
+    <FileStats path="builders/ButtStockBuilder.java" bugCount="0" size="23"/>
+    <FileStats path="builders/GunBuilder.java" bugCount="0" size="43"/>
+    <FileStats path="builders/MagazineBuilder.java" bugCount="0" size="23"/>
+    <FileStats path="builders/SightBuilder.java" bugCount="0" size="23"/>
+    <FileStats path="factory/AbstractFactory.java" bugCount="0" size="13"/>
+    <FileStats path="factory/BarrelDaoFactory.java" bugCount="0" size="9"/>
+    <FileStats path="factory/BulletDaoFactory.java" bugCount="0" size="10"/>
+    <FileStats path="factory/ButtStockDaoFactory.java" bugCount="0" size="10"/>
+    <FileStats path="factory/Factory.java" bugCount="0" size="4"/>
+    <FileStats path="factory/GunDaoFactory.java" bugCount="0" size="10"/>
+    <FileStats path="factory/MagazineDaoFactory.java" bugCount="0" size="10"/>
+    <FileStats path="factory/SightDaoFactory.java" bugCount="0" size="10"/>
+    <FileStats path="memento/Memento.java" bugCount="0" size="32"/>
+    <FileStats path="prototype/Prototype.java" bugCount="0" size="6"/>
+    <FileStats path="rest/RESTApplication.java" bugCount="0" size="3"/>
+    <PackageStats package="Controller" total_bugs="0" total_types="6" total_size="308">
+      <ClassStats class="Controller.BarrelController" sourceFile="BarrelController.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="Controller.BulletController" sourceFile="BulletController.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="Controller.ButtStockController" sourceFile="ButtStockController.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="Controller.GunController" sourceFile="GunController.java" interface="false" size="145" bugs="0"/>
+      <ClassStats class="Controller.MagazineController" sourceFile="MagazineController.java" interface="false" size="55" bugs="0"/>
+      <ClassStats class="Controller.SightController" sourceFile="SightController.java" interface="false" size="27" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Dao" total_bugs="0" total_types="7" total_size="229">
+      <ClassStats class="Dao.BarrelDao" sourceFile="BarrelDao.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="Dao.BulletDao" sourceFile="BulletDao.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="Dao.ButtStockDao" sourceFile="ButtStockDao.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="Dao.DaoBridge" sourceFile="DaoBridge.java" interface="true" size="7" bugs="0"/>
+      <ClassStats class="Dao.GunDao" sourceFile="GunDao.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="Dao.MagazineDao" sourceFile="MagazineDao.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="Dao.SightDao" sourceFile="SightDao.java" interface="false" size="37" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="Endpoints" total_bugs="0" total_types="6" total_size="134">
+      <ClassStats class="Endpoints.BarrelEndpoint" sourceFile="BarrelEndpoint.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="Endpoints.BulletEndpoint" sourceFile="BulletEndpoint.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="Endpoints.ButtStockEndpoint" sourceFile="ButtStockEndpoint.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="Endpoints.GunEndpoint" sourceFile="GunEndpoint.java" interface="false" size="42" bugs="0"/>
+      <ClassStats class="Endpoints.MagazineEndpoint" sourceFile="MagazineEndpoint.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="Endpoints.SightEndpoint" sourceFile="SightEndpoint.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="arma" total_bugs="0" total_types="8" total_size="414">
+      <ClassStats class="arma.Arma" sourceFile="Arma.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="arma.Barrel" sourceFile="Barrel.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="arma.Bullet" sourceFile="Bullet.java" interface="false" size="36" bugs="0"/>
+      <ClassStats class="arma.ButtStock" sourceFile="ButtStock.java" interface="false" size="37" bugs="0"/>
+      <ClassStats class="arma.Gun" sourceFile="Gun.java" interface="false" size="152" bugs="0"/>
+      <ClassStats class="arma.Item" sourceFile="Item.java" interface="false" size="28" bugs="0"/>
+      <ClassStats class="arma.Magazine" sourceFile="Magazine.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="arma.Sight" sourceFile="Sight.java" interface="false" size="39" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="arquivos" total_bugs="0" total_types="1" total_size="60">
+      <ClassStats class="arquivos.GerenciadorArquivos" sourceFile="GerenciadorArquivos.java" interface="false" size="60" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="builders" total_bugs="0" total_types="8" total_size="204">
+      <ClassStats class="builders.ArmaBuilder" sourceFile="ArmaBuilder.java" interface="false" size="34" bugs="0"/>
+      <ClassStats class="builders.BarrelBuilder" sourceFile="BarrelBuilder.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="builders.Builder" sourceFile="Builder.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="builders.BulletBuilder" sourceFile="BulletBuilder.java" interface="false" size="27" bugs="0"/>
+      <ClassStats class="builders.ButtStockBuilder" sourceFile="ButtStockBuilder.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="builders.GunBuilder" sourceFile="GunBuilder.java" interface="false" size="43" bugs="0"/>
+      <ClassStats class="builders.MagazineBuilder" sourceFile="MagazineBuilder.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="builders.SightBuilder" sourceFile="SightBuilder.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="factory" total_bugs="0" total_types="8" total_size="76">
+      <ClassStats class="factory.AbstractFactory" sourceFile="AbstractFactory.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="factory.BarrelDaoFactory" sourceFile="BarrelDaoFactory.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="factory.BulletDaoFactory" sourceFile="BulletDaoFactory.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="factory.ButtStockDaoFactory" sourceFile="ButtStockDaoFactory.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="factory.Factory" sourceFile="Factory.java" interface="false" size="4" bugs="0"/>
+      <ClassStats class="factory.GunDaoFactory" sourceFile="GunDaoFactory.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="factory.MagazineDaoFactory" sourceFile="MagazineDaoFactory.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="factory.SightDaoFactory" sourceFile="SightDaoFactory.java" interface="false" size="10" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="memento" total_bugs="0" total_types="1" total_size="32">
+      <ClassStats class="memento.Memento" sourceFile="Memento.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="prototype" total_bugs="0" total_types="1" total_size="6">
+      <ClassStats class="prototype.Prototype" sourceFile="Prototype.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="rest" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="rest.RESTApplication" sourceFile="RESTApplication.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="538" invocations="503" avgMicrosecondsPerInvocation="1070" maxMicrosecondsPerInvocation="46058" standardDeviationMicrosecondsPerInvocation="2897"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="398" invocations="334" avgMicrosecondsPerInvocation="1192" maxMicrosecondsPerInvocation="36246" standardDeviationMicrosecondsPerInvocation="3088"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="314" invocations="307" avgMicrosecondsPerInvocation="1025" maxMicrosecondsPerInvocation="25095" standardDeviationMicrosecondsPerInvocation="1928"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="294" invocations="357" avgMicrosecondsPerInvocation="824" maxMicrosecondsPerInvocation="28670" standardDeviationMicrosecondsPerInvocation="2006"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="292" invocations="342" avgMicrosecondsPerInvocation="854" maxMicrosecondsPerInvocation="44611" standardDeviationMicrosecondsPerInvocation="2781"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="288" invocations="357" avgMicrosecondsPerInvocation="807" maxMicrosecondsPerInvocation="29862" standardDeviationMicrosecondsPerInvocation="2329"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="284" invocations="334" avgMicrosecondsPerInvocation="851" maxMicrosecondsPerInvocation="25777" standardDeviationMicrosecondsPerInvocation="1829"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="262" invocations="507" avgMicrosecondsPerInvocation="517" maxMicrosecondsPerInvocation="8419" standardDeviationMicrosecondsPerInvocation="579"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="246" invocations="319" avgMicrosecondsPerInvocation="773" maxMicrosecondsPerInvocation="24442" standardDeviationMicrosecondsPerInvocation="1837"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="244" invocations="73" avgMicrosecondsPerInvocation="3355" maxMicrosecondsPerInvocation="35394" standardDeviationMicrosecondsPerInvocation="7432"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="229" invocations="73" avgMicrosecondsPerInvocation="3141" maxMicrosecondsPerInvocation="39266" standardDeviationMicrosecondsPerInvocation="6750"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="206" invocations="342" avgMicrosecondsPerInvocation="602" maxMicrosecondsPerInvocation="111749" standardDeviationMicrosecondsPerInvocation="6072"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="205" invocations="430" avgMicrosecondsPerInvocation="478" maxMicrosecondsPerInvocation="13583" standardDeviationMicrosecondsPerInvocation="1308"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="149" invocations="246" avgMicrosecondsPerInvocation="608" maxMicrosecondsPerInvocation="8573" standardDeviationMicrosecondsPerInvocation="934"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="100" invocations="3615" avgMicrosecondsPerInvocation="27" maxMicrosecondsPerInvocation="16055" standardDeviationMicrosecondsPerInvocation="321"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="100" invocations="47" avgMicrosecondsPerInvocation="2130" maxMicrosecondsPerInvocation="23661" standardDeviationMicrosecondsPerInvocation="4395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="97" invocations="136" avgMicrosecondsPerInvocation="715" maxMicrosecondsPerInvocation="38973" standardDeviationMicrosecondsPerInvocation="3568"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="94" invocations="73" avgMicrosecondsPerInvocation="1290" maxMicrosecondsPerInvocation="20474" standardDeviationMicrosecondsPerInvocation="3239"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="93" invocations="449" avgMicrosecondsPerInvocation="208" maxMicrosecondsPerInvocation="6463" standardDeviationMicrosecondsPerInvocation="510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="90" invocations="47" avgMicrosecondsPerInvocation="1926" maxMicrosecondsPerInvocation="14200" standardDeviationMicrosecondsPerInvocation="2965"/>
+      <ClassProfile name="edu.umd.cs.findbugs.DetectorToDetector2Adapter" totalMilliseconds="78" invocations="10230" avgMicrosecondsPerInvocation="7" maxMicrosecondsPerInvocation="1266" standardDeviationMicrosecondsPerInvocation="27"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="78" invocations="334" avgMicrosecondsPerInvocation="234" maxMicrosecondsPerInvocation="13079" standardDeviationMicrosecondsPerInvocation="941"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="71" invocations="47" avgMicrosecondsPerInvocation="1511" maxMicrosecondsPerInvocation="45471" standardDeviationMicrosecondsPerInvocation="7223"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSleepWithLockHeld" totalMilliseconds="66" invocations="47" avgMicrosecondsPerInvocation="1407" maxMicrosecondsPerInvocation="64488" standardDeviationMicrosecondsPerInvocation="9300"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="65" invocations="47" avgMicrosecondsPerInvocation="1394" maxMicrosecondsPerInvocation="18639" standardDeviationMicrosecondsPerInvocation="2738"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="64" invocations="47" avgMicrosecondsPerInvocation="1378" maxMicrosecondsPerInvocation="7593" standardDeviationMicrosecondsPerInvocation="1673"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="62" invocations="73" avgMicrosecondsPerInvocation="858" maxMicrosecondsPerInvocation="16742" standardDeviationMicrosecondsPerInvocation="2317"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="61" invocations="73" avgMicrosecondsPerInvocation="842" maxMicrosecondsPerInvocation="30638" standardDeviationMicrosecondsPerInvocation="3595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="60" invocations="47" avgMicrosecondsPerInvocation="1295" maxMicrosecondsPerInvocation="13916" standardDeviationMicrosecondsPerInvocation="2311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CheckRelaxingNullnessAnnotation" totalMilliseconds="57" invocations="47" avgMicrosecondsPerInvocation="1219" maxMicrosecondsPerInvocation="22564" standardDeviationMicrosecondsPerInvocation="3356"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.PathTraversalDetector" totalMilliseconds="55" invocations="47" avgMicrosecondsPerInvocation="1175" maxMicrosecondsPerInvocation="7194" standardDeviationMicrosecondsPerInvocation="1494"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.redirect.UnvalidatedRedirectDetector" totalMilliseconds="53" invocations="47" avgMicrosecondsPerInvocation="1144" maxMicrosecondsPerInvocation="12466" standardDeviationMicrosecondsPerInvocation="2379"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="53" invocations="307" avgMicrosecondsPerInvocation="173" maxMicrosecondsPerInvocation="4415" standardDeviationMicrosecondsPerInvocation="429"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="51" invocations="73" avgMicrosecondsPerInvocation="711" maxMicrosecondsPerInvocation="10971" standardDeviationMicrosecondsPerInvocation="1748"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="51" invocations="73" avgMicrosecondsPerInvocation="703" maxMicrosecondsPerInvocation="12937" standardDeviationMicrosecondsPerInvocation="1791"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="51" invocations="47" avgMicrosecondsPerInvocation="1092" maxMicrosecondsPerInvocation="6875" standardDeviationMicrosecondsPerInvocation="1319"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.IntuitiveHardcodePasswordDetector" totalMilliseconds="48" invocations="47" avgMicrosecondsPerInvocation="1042" maxMicrosecondsPerInvocation="17623" standardDeviationMicrosecondsPerInvocation="3055"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="47" invocations="73" avgMicrosecondsPerInvocation="648" maxMicrosecondsPerInvocation="6889" standardDeviationMicrosecondsPerInvocation="1156"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.sql.SqlInjectionDetector" totalMilliseconds="43" invocations="47" avgMicrosecondsPerInvocation="929" maxMicrosecondsPerInvocation="26270" standardDeviationMicrosecondsPerInvocation="3759"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="43" invocations="47" avgMicrosecondsPerInvocation="928" maxMicrosecondsPerInvocation="7731" standardDeviationMicrosecondsPerInvocation="1361"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.XssTwirlDetector" totalMilliseconds="40" invocations="47" avgMicrosecondsPerInvocation="871" maxMicrosecondsPerInvocation="8850" standardDeviationMicrosecondsPerInvocation="1747"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.file.FileUploadFilenameDetector" totalMilliseconds="40" invocations="47" avgMicrosecondsPerInvocation="851" maxMicrosecondsPerInvocation="26995" standardDeviationMicrosecondsPerInvocation="3887"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.OgnlInjectionDetector" totalMilliseconds="40" invocations="47" avgMicrosecondsPerInvocation="851" maxMicrosecondsPerInvocation="17829" standardDeviationMicrosecondsPerInvocation="2538"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUselessObjects" totalMilliseconds="39" invocations="47" avgMicrosecondsPerInvocation="843" maxMicrosecondsPerInvocation="8503" standardDeviationMicrosecondsPerInvocation="1593"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="38" invocations="73" avgMicrosecondsPerInvocation="531" maxMicrosecondsPerInvocation="12116" standardDeviationMicrosecondsPerInvocation="2373"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue" totalMilliseconds="37" invocations="47" avgMicrosecondsPerInvocation="793" maxMicrosecondsPerInvocation="4671" standardDeviationMicrosecondsPerInvocation="971"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="36" invocations="47" avgMicrosecondsPerInvocation="782" maxMicrosecondsPerInvocation="6434" standardDeviationMicrosecondsPerInvocation="1193"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.ConstantPasswordDetector" totalMilliseconds="35" invocations="47" avgMicrosecondsPerInvocation="758" maxMicrosecondsPerInvocation="3650" standardDeviationMicrosecondsPerInvocation="734"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.IncompatMask" totalMilliseconds="34" invocations="47" avgMicrosecondsPerInvocation="742" maxMicrosecondsPerInvocation="7681" standardDeviationMicrosecondsPerInvocation="1497"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xpath.XPathInjectionDetector" totalMilliseconds="34" invocations="47" avgMicrosecondsPerInvocation="735" maxMicrosecondsPerInvocation="6713" standardDeviationMicrosecondsPerInvocation="1063"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="34" invocations="47" avgMicrosecondsPerInvocation="726" maxMicrosecondsPerInvocation="6559" standardDeviationMicrosecondsPerInvocation="1184"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="33" invocations="47" avgMicrosecondsPerInvocation="719" maxMicrosecondsPerInvocation="11174" standardDeviationMicrosecondsPerInvocation="1706"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="33" invocations="307" avgMicrosecondsPerInvocation="109" maxMicrosecondsPerInvocation="1855" standardDeviationMicrosecondsPerInvocation="188"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.ExternalConfigurationControlDetector" totalMilliseconds="33" invocations="47" avgMicrosecondsPerInvocation="707" maxMicrosecondsPerInvocation="13527" standardDeviationMicrosecondsPerInvocation="1963"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass" totalMilliseconds="32" invocations="47" avgMicrosecondsPerInvocation="699" maxMicrosecondsPerInvocation="14108" standardDeviationMicrosecondsPerInvocation="2189"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.ScalaSensitiveDataExposureDetector" totalMilliseconds="32" invocations="47" avgMicrosecondsPerInvocation="696" maxMicrosecondsPerInvocation="8031" standardDeviationMicrosecondsPerInvocation="1251"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.injection.script.ScriptInjectionDetector" totalMilliseconds="31" invocations="47" avgMicrosecondsPerInvocation="665" maxMicrosecondsPerInvocation="4582" standardDeviationMicrosecondsPerInvocation="841"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.scala.SSRFDetector" totalMilliseconds="29" invocations="47" avgMicrosecondsPerInvocation="631" maxMicrosecondsPerInvocation="9510" standardDeviationMicrosecondsPerInvocation="1393"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.password.HardcodedPasswordEqualsDetector" totalMilliseconds="29" invocations="47" avgMicrosecondsPerInvocation="626" maxMicrosecondsPerInvocation="10545" standardDeviationMicrosecondsPerInvocation="1543"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="29" invocations="47" avgMicrosecondsPerInvocation="618" maxMicrosecondsPerInvocation="5298" standardDeviationMicrosecondsPerInvocation="1134"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="28" invocations="73" avgMicrosecondsPerInvocation="392" maxMicrosecondsPerInvocation="5848" standardDeviationMicrosecondsPerInvocation="897"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.xml.StdXmlTransformDetector" totalMilliseconds="28" invocations="47" avgMicrosecondsPerInvocation="608" maxMicrosecondsPerInvocation="4404" standardDeviationMicrosecondsPerInvocation="859"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.crypto.cipher.DesUsageDetector" totalMilliseconds="28" invocations="47" avgMicrosecondsPerInvocation="600" maxMicrosecondsPerInvocation="5700" standardDeviationMicrosecondsPerInvocation="948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindReturnRef" totalMilliseconds="27" invocations="47" avgMicrosecondsPerInvocation="580" maxMicrosecondsPerInvocation="13011" standardDeviationMicrosecondsPerInvocation="1857"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.PermissiveCORSDetector" totalMilliseconds="26" invocations="47" avgMicrosecondsPerInvocation="574" maxMicrosecondsPerInvocation="9234" standardDeviationMicrosecondsPerInvocation="1361"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
