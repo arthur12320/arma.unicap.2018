@@ -230,6 +230,12 @@ public class Gun extends Item{
                 .append(this.capacity)
                 .append(" Weight: ")
                 .append(this.weight)
+                .append("MAGAZINE: ")
+                .append(this.magazine)
+                .append("SIGHT: ")
+                .append(this.sight)
+                .append("BUTTSTOCK: ")
+                .append(this.buttstock)
                 .append("BARREL: ")
                 .append(this.barrel);
         return sb.toString();
